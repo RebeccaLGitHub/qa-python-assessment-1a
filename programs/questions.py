@@ -35,6 +35,10 @@
 
 
 def one(input1, input2):
+    if input1.len() > input2.len(): 
+        print(input1)
+    elif input2.len() > input1.len():
+        print(input2)
     return ""
 
    # <QUESTION 2>
